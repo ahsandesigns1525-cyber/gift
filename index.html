@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Birthday meri Sabnoor ❤️</title>
+<style>
+body{margin:0;background:linear-gradient(#09011f,#1d1145);color:#fff;font-family:Arial;text-align:center;overflow:hidden}
+#stars:before{content:"";position:fixed;inset:0;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:40px 40px;opacity:.4;animation:move 40s linear infinite}
+@keyframes move{from{transform:translateY(0)}to{transform:translateY(40px)}}
+.box{position:relative;z-index:1;padding:10vh 10vw}
+h1{font-size:3em;color:#ff8ac7}
+p{font-size:1.2em;line-height:1.8;max-width:800px;margin:auto}
+button{padding:15px 30px;border:none;border-radius:30px;background:#ff4d94;color:#fff;font-size:18px;cursor:pointer}
+#msg{display:none}
+.heart{position:fixed;color:#ff6aa2;animation:fall 8s linear infinite}
+@keyframes fall{from{transform:translateY(-10vh)}to{transform:translateY(110vh)}}
+</style></head>
+<body><div id="stars"></div>
+<div class="box">
+<h1>🎂 Happy Birthday Sabnoor ❤️</h1>
+<button onclick="show()">Yahan Click Karo 💖</button>
+<div id="msg">
+<p>Meri Pyari <b>Sabnoor</b>,<br><br>
+Aaj ka din mere liye duniya ka sabse khaas din hai, kyunki aaj meri zindagi ki sabse khoobsurat ladki ka birthday hai. ❤️<br><br>
+Yaqeen nahi hota ki hamare pyaar ko <b>2 saal</b> ho gaye. Har din tumhare saath ek nayi khushi lekar aaya. Tumhari muskurahat meri taqat hai aur tumhara saath meri sabse badi daulat.<br><br>
+Main Allah se dua karta hoon ki tum hamesha khush raho, sehatmand raho aur tumhare har sapne poore hon.<br><br>
+Main hamesha tumhara saath dunga. ❤️<br><br>
+<b>Happy Birthday Meri Jaan.</b><br>
+<b>I Love You, Sabnoor.</b><br><br>
+— Hamesha Tumhara,<br><b>Ahsan ❤️</b></p>
+</div></div>
+<script>
+function show(){document.getElementById('msg').style.display='block';for(let i=0;i<40;i++){let d=document.createElement('div');d.className='heart';d.innerHTML='❤';d.style.left=Math.random()*100+'vw';d.style.animationDelay=Math.random()*5+'s';document.body.appendChild(d);}}
+</script></body></html>
